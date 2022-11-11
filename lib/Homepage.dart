@@ -42,6 +42,7 @@ class Home extends StatelessWidget {
               ),
             ),
             Divider(thickness: 5.0,color: Colors.grey),
+            Divider(thickness: 5.0,color: Colors.grey),
 
             Container(
               child:Padding(
@@ -108,7 +109,9 @@ class Home extends StatelessWidget {
           BottomNavigationBarItem(icon: Icon(Icons.message),label: "MESSAGE",),
 
         ],
-        onTap: (index) {
+        //hashbhadhdhvsahvdva
+        onTap: (index)
+          {
           if(index==0){
             Navigator.push(context, MaterialPageRoute(builder: (context) => homeinfo(),));
           }
